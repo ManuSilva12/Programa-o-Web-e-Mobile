@@ -6,7 +6,7 @@ export default function Exercicio210() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "100vh",
-        padding: "40px"
+        padding: "5vw"
       }}
     >
       <h1
@@ -15,7 +15,9 @@ export default function Exercicio210() {
           border: "2px solid green",
           padding: "10px",
           color: "white",
-          width: "fit-content"
+          width: "fit-content",
+          maxWidth: "100%",
+          fontSize: "clamp(20px, 4vw, 32px)"
         }}
       >
         Primeiro exercício de CSS

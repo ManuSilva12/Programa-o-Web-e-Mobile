@@ -1,11 +1,12 @@
 export default function Exercicio231() {
   return (
-    <main style={{ padding: "40px" }}>
+    <main style={{ padding: "5vw" }}>
 
       <div
         style={{
           backgroundColor: "red",
-          width: "700px",
+          width: "90%",
+          maxWidth: "700px",
           padding: "0px",
           height: "80px",
           margin: "20px auto",
@@ -19,7 +20,8 @@ export default function Exercicio231() {
       <div
         style={{
           backgroundColor: "green",
-          width: "700px",
+          width: "90%",
+          maxWidth: "700px",
           padding: "25px",
           height: "80px",
           margin: "20px auto",
