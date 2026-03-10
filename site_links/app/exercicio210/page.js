@@ -5,8 +5,10 @@ export default function Exercicio210() {
         backgroundImage: "url('/baixados.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
         minHeight: "100vh",
-        padding: "5vw"
+        padding: "40px"
       }}
     >
       <h1
@@ -15,9 +17,7 @@ export default function Exercicio210() {
           border: "2px solid green",
           padding: "10px",
           color: "white",
-          width: "fit-content",
-          maxWidth: "100%",
-          fontSize: "clamp(20px, 4vw, 32px)"
+          width: "fit-content"
         }}
       >
         Primeiro exercício de CSS
