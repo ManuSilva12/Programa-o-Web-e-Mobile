@@ -3,12 +3,13 @@ export default function Exercicio210() {
     <main
       style={{
         backgroundImage: "url('/baixados.jpg')",
-        backgroundSize: "cover",
+        backgroundSize: "100% 100%",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        width: "100%",
-        minHeight: "100vh",
-        padding: "40px"
+        width: "100vw",
+        height: "100vh",
+        padding: "40px",
+        boxSizing: "border-box"
       }}
     >
       <h1
@@ -20,7 +21,7 @@ export default function Exercicio210() {
           width: "fit-content"
         }}
       >
-        Primeiro exercício de CSS
+        Exercicio 210
       </h1>
     </main>
   );
